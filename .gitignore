@@ -151,3 +151,14 @@ data/
 # Rollout videos and wandb logs
 rollouts/
 wandb/
+
+# --- 针对你当前项目的特别补充 ---
+# 忽略数据集文件夹（里面可能有成千上万张图片，绝对不要传到 Git）
+dataset_v1/
+
+# 忽略实验输出和模型权重
+outputs/
+experiments/
+
+# 忽略根目录下的所有视频演示文件
+*.mp4
